@@ -1,0 +1,48 @@
+// Custom Varibales & Overrides
+// Please only wite your custom varibales here so that it won't overwrites 
+// when a new version is released
+// Steps: Copy the variables from the default and paste it here to overwrite
+
+.navlogo{
+    width: 100px;
+}
+.titleup{
+    font-weight: 300;
+}
+.highlightsi{
+    font-weight: 900;
+}
+#conceptbtn{
+    font-weight:400;
+}
+#navcolor{
+    color: #b5b5b5;
+    &:hover{
+        color: #06ff93;
+    }
+}
+#builtcolor{
+    font-weight: 500;
+}
+#nrtot{
+    font-size: 25px;
+    font-weight: 400;
+}
+#donuttxt{
+    font-size: 60px;
+}
+#img11{
+    width: 170px;
+}
+#img22{
+    width: 150px;
+}
+#img33{
+    width: 170px;
+}
+#img44{
+    width: 140px;
+}
+#img55{
+    width: 170px;
+}
