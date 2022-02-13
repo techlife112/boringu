@@ -24,6 +24,10 @@ Note:  If possible, Please edit the SASS Files and
         use a compiling tool to generate this css.
 ---------------------------------------------------
 */
+html {
+  scroll-behavior: smooth;
+}
+
 .navlogo {
   width: 100px;
 }
@@ -79,6 +83,37 @@ Note:  If possible, Please edit the SASS Files and
 
 #img55 {
   width: 170px;
+}
+
+.sectiontext {
+  background-image: url(../images/bg.png);
+}
+
+#slippage {
+  font-size: 12px;
+}
+
+#seconddescription {
+  background-image: url("../images/bg.png");
+  background-size: 100% 100%;
+}
+
+#recycling {
+  background-image: url("../images/sectionRECYCLING.png");
+  background-size: 100% 100%;
+}
+
+#planttreees {
+  background-image: url("../images/sectionPLANTTREE.png");
+  background-size: 100% 100%;
+}
+
+#fontweight {
+  font-weight: 600;
+}
+
+#iphonephp {
+  width: 250px;
 }
 
 /*!

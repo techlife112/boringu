@@ -3,6 +3,9 @@
 // when a new version is released
 // Steps: Copy the variables from the default and paste it here to overwrite
 
+html{
+    scroll-behavior: smooth;
+}
 .navlogo{
     width: 100px;
 }
@@ -45,4 +48,29 @@
 }
 #img55{
     width: 170px;
+}
+.sectiontext{
+    background-image: url(../images/bg.png);
+}
+#slippage{
+    font-size: 12px;
+}
+#seconddescription{
+    background-image: url('../images/bg.png');
+    background-size: 100% 100%;
+}
+#recycling{
+    background-image: url('../images/sectionRECYCLING.png');
+    background-size: 100% 100%;
+}
+#planttreees{
+    background-image: url('../images/sectionPLANTTREE.png');
+    background-size: 100% 100%;
+}
+#fontweight{
+    font-weight: 600;
+}
+
+#iphonephp{
+    width: 250px;
 }

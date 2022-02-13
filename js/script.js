@@ -50,7 +50,7 @@ $(function () {
             labels: ["Circulation Supply", "Exchange Listings",  "Locked for Manual Burn" , "Marketing Supply", "Already Burned"],
             datasets: [{
                 label: "Token Distribution",
-                data: [40, 5,  25 , 5, 25],
+                data: [20, 5,  20 , 5, 50],
                 backgroundColor: ["#00ff9c", "#01ac61", "#00ce79", "#01ae7b", "#02de9d"],
                 borderWidth: 2,
                 borderColor: "#262626",
