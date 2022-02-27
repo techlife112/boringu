@@ -1,76 +1,212 @@
-// Custom Varibales & Overrides
-// Please only wite your custom varibales here so that it won't overwrites 
-// when a new version is released
-// Steps: Copy the variables from the default and paste it here to overwrite
+html {
+  scroll-behavior: smooth;
+}
+.navlogo {
+  width: 100px;
+}
+.titleup {
+  font-weight: 300;
+}
+.highlightsi {
+  font-weight: 900;
+}
+#conceptbtn {
+  font-weight: 400;
+}
+#navcolor {
+  color: #b5b5b5;
+  &:hover {
+    color: #06ff93;
+  }
+}
+#builtcolor {
+  font-weight: 500;
+}
+#nrtot {
+  font-size: 25px;
+  font-weight: 400;
+}
+#donuttxt {
+  font-size: 60px;
+}
+#img11 {
+  width: 170px;
+}
+#img22 {
+  width: 150px;
+}
+#img33 {
+  width: 170px;
+}
+#img44 {
+  width: 140px;
+}
+#img55 {
+  width: 170px;
+}
+.sectiontext {
+  background-image: url(../images/bg.png);
+}
+#slippage {
+  font-size: 12px;
+}
+#seconddescription {
+  background-image: url("../images/bg.png");
+  background-size: 100% 100%;
+}
+#recycling {
+  background-image: url("../images/sectionRECYCLING.png");
+  background-size: 100% 100%;
+}
+#planttreees {
+  background-image: url("../images/sectionPLANTTREE.png");
+  background-size: 100% 100%;
+}
+#fontweight {
+  font-weight: 600;
+}
 
-html{
-    scroll-behavior: smooth;
+#iphonephp {
+  width: 250px;
 }
-.navlogo{
-    width: 100px;
-}
-.titleup{
-    font-weight: 300;
-}
-.highlightsi{
-    font-weight: 900;
-}
-#conceptbtn{
-    font-weight:400;
-}
-#navcolor{
-    color: #b5b5b5;
-    &:hover{
-        color: #06ff93;
+
+// whitepaper start
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #24573500;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+  overflow: scroll;
+
+  a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    &:hover {
+      background-color: rgb(8, 180, 66);
+      color: white;
     }
-}
-#builtcolor{
-    font-weight: 500;
-}
-#nrtot{
-    font-size: 25px;
-    font-weight: 400;
-}
-#donuttxt{
-    font-size: 60px;
-}
-#img11{
-    width: 170px;
-}
-#img22{
-    width: 150px;
-}
-#img33{
-    width: 170px;
-}
-#img44{
-    width: 140px;
-}
-#img55{
-    width: 170px;
-}
-.sectiontext{
-    background-image: url(../images/bg.png);
-}
-#slippage{
-    font-size: 12px;
-}
-#seconddescription{
-    background-image: url('../images/bg.png');
-    background-size: 100% 100%;
-}
-#recycling{
-    background-image: url('../images/sectionRECYCLING.png');
-    background-size: 100% 100%;
-}
-#planttreees{
-    background-image: url('../images/sectionPLANTTREE.png');
-    background-size: 100% 100%;
-}
-#fontweight{
-    font-weight: 600;
+  }
 }
 
-#iphonephp{
-    width: 250px;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.content {
+  margin-left: 20%;
+  padding: 1px 100px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+  .content {
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar {
+    display: none;
+  }
+  .content {
+    margin-left: 0%;
+  }
+}
+
+.centertitlebgt {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 900;
+}
+.centertitle {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 26px;
+}
+.centertitleleft {
+  text-align: start;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 26px;
+}
+.centertitleleft {
+  text-align: start;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 26px;
+}
+.centertitlelow {
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+}
+.centertitlelowlow {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+.centertitlelowlowleft {
+  text-align: start;
+  font-weight: 600;
+  font-size: 18px;
+}
+.centertxt {
+  text-align: center;
+}
+.logowidth {
+  width: 128px;
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border: 2px solid wheat;
+  border-radius: 50%;
+}
+.imgrecycle {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contractaddress {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.textpara {
+  text-align: justify;
+}
+.textparacenter {
+  text-align: center;
+}
+
+
+// whitepaper end

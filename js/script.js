@@ -1,14 +1,4 @@
-/*
 
-Script  : Main JS
-Version : 1.0
-Author  : Surjith S M
-URI     : http://themeforest.net/user/surjithctly
-
-Copyright © All rights Reserved
-Surjith S M / @surjithctly
-
-*/
 
 $(function () {
 
@@ -47,10 +37,10 @@ $(function () {
     var distChart = new Chart(ctx, {
         type: 'pie',
         data: {
-            labels: ["Circulation Supply", "Exchange Listings",  "Locked for Manual Burn" , "Marketing Supply", "Already Burned"],
+            labels: ["Presale Supply", "PancakeSwap Supply", "Marketing Supply", "Already Burned"],
             datasets: [{
                 label: "Token Distribution",
-                data: [20, 5,  20 , 5, 50],
+                data: [39.6, 20.4,  5 , 35],
                 backgroundColor: ["#00ff9c", "#01ac61", "#00ce79", "#01ae7b", "#02de9d"],
                 borderWidth: 2,
                 borderColor: "#262626",
